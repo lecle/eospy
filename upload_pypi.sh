@@ -8,6 +8,6 @@ fi
 export BUILD_VERSION=$1
 
 # setup
-python setup.py sdist
+rm -rf dist && python setup.py sdist bdist_wheel
 # test upload
-twine upload dist/*${BUILD_VERSION}*
+twine upload dist/*

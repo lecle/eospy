@@ -4,3 +4,11 @@ dist/
 build/
 libeospy.egg-info
 .vscode/
+.venv
+
+.eggs
+
+.pytest_cache
+__pycache__
+
+*.egg-info

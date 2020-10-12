@@ -37,12 +37,18 @@ This library is very much a work in progress.
 
 ### Linux
 
+Setup a virtual environment, do it once:
+
+```bash
+$ cd eospy
+$ python -m venv .venv
+$ source .venv/bin/activate
+$ pip install wheel
+$ pip install setuptools
+$ pip install twine
 ```
-# create virtual environment
-mkdir -p ~/envs/eospy
-virtualenv ~/envs/eospy
-# activate the environment
-source ~/envs/eospy/bin/activate
+
+```
 # install from github
 # look [here](https://github.com/eosnewyork/eospy/releases) for the latest release.
 pip install git+https://github.com/eosnewyork/eospy.git@<release>
